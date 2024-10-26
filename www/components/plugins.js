@@ -8,7 +8,7 @@ $(document).on("click","#camera",function(){
      });
 
 function onSuccess(imageURI) {
-    var image = document.getElementById('myImage');
+    var image = document.getElementById('imagem');
     image.src = imageURI;
 }
 
